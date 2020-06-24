@@ -11,6 +11,7 @@ return array(
     'Calculator\\CalculateInterface' => $baseDir . '/src/Calculator/CalculateInterface.php',
     'Calculator\\Calculator' => $baseDir . '/src/Calculator/Calculator.php',
     'Calculator\\Division' => $baseDir . '/src/Calculator/Division.php',
+    'Calculator\\Exceptions\\NoDivideByZeroException' => $baseDir . '/src/Calculator/Exceptions/NoDivideByZeroException.php',
     'Calculator\\Exceptions\\NoOperandsException' => $baseDir . '/src/Calculator/Exceptions/NoOperandsException.php',
     'Calculator\\Multiply' => $baseDir . '/src/Calculator/Multiply.php',
     'Calculator\\Operand' => $baseDir . '/src/Calculator/Operand.php',

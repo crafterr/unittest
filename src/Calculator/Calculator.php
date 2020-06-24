@@ -21,10 +21,6 @@ class Calculator implements CalculateInterface {
    * @inheritDoc
    */
   public function calculate() {
-    if (count($this->operand->getOperands()) === 0) {
-      throw new NoOperandsException();
-    }
-
     return $this->operand->calculate();
   }
 

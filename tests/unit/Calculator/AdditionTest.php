@@ -13,19 +13,13 @@ class AdditionTest extends TestCase {
   public function testAddsUpGivenOperands() {
     $addition = new Addition();
     $addition->setOperands([5,10]);
-    $calculator = new Calculator($addition);
-
-
-    $this->assertEquals(15,$calculator->calculate());
+    $this->assertEquals(15,$addition->calculate());
   }
 
   public function testNoOperandsGivenThrowsExceptionWhenCalculating() {
 
     $this->expectException(NoOperandsException::class);
     $addition = new Addition();
-    $calculator = new Calculator($addition);
-
-
-    $calculator->calculate();
+    $addition->calculate();
   }
 }

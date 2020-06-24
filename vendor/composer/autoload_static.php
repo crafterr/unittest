@@ -78,6 +78,7 @@ class ComposerStaticInitb3775df546376441cafadb7c85bd3ad8
         'Calculator\\CalculateInterface' => __DIR__ . '/../..' . '/src/Calculator/CalculateInterface.php',
         'Calculator\\Calculator' => __DIR__ . '/../..' . '/src/Calculator/Calculator.php',
         'Calculator\\Division' => __DIR__ . '/../..' . '/src/Calculator/Division.php',
+        'Calculator\\Exceptions\\NoDivideByZeroException' => __DIR__ . '/../..' . '/src/Calculator/Exceptions/NoDivideByZeroException.php',
         'Calculator\\Exceptions\\NoOperandsException' => __DIR__ . '/../..' . '/src/Calculator/Exceptions/NoOperandsException.php',
         'Calculator\\Multiply' => __DIR__ . '/../..' . '/src/Calculator/Multiply.php',
         'Calculator\\Operand' => __DIR__ . '/../..' . '/src/Calculator/Operand.php',
