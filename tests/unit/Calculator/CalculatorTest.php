@@ -20,6 +20,8 @@ class CalculatorTest extends TestCase {
     $calculator = new Calculator($addition);
 
   }
+
+
   /**
    * @test
    */
@@ -48,5 +50,11 @@ class CalculatorTest extends TestCase {
     $division->setOperands([10,2]);
     $calculator = new Calculator($division);
     $this->assertEquals(5,$calculator->calculate());
+  }
+
+  public function testIsSetParameterInOperand() {
+    $addition = new Addition();
+    $addition->setOperands([5,10]);
+    $this->assertEquals([5,10],$addition->getOperands());
   }
 }
